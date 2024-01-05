@@ -13,8 +13,9 @@ public class Computer {
     }
 
     public double totalWeight() {
-        return processor.getWeightProcessor() + ram.getWeightRam() +screen.getWeightScreen() +
+        double road = processor.getWeightProcessor() + ram.getWeightRam() +screen.getWeightScreen() +
                 disk.getWeightDisk() + keyboard.getWeightKeyboard();
+        return Math.floor(road * 100) / 100;
     }
 
     // Getter

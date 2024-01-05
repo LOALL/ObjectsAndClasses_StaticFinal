@@ -16,7 +16,7 @@ public class main {
         Disk diskTwo = new Disk(TypeDisk.HDD, 1000, 1.2);
 
         //Screen
-        Screen screenOne = new Screen(27.3, TypeScreen.VA, 1.0);
+        Screen screenOne = new Screen(27.3, TypeScreen.VA, 1.2);
         Screen screenTwo = new Screen(28.4, TypeScreen.IPS, 2.2);
 
         //Keyboard
